@@ -1,0 +1,38 @@
+/* 1. RESET GLOBAL */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* 2. DEFINIÇÃO DAS CONFIGURAÇÕES GLOBAIS */
+
+body {
+    font-family: 'lato', sans-serif;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+
+}
+
+/* 3. O COMPONENTE DO POST - O FOCO DO NOSSO ESTUDO */
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 700px;
+    background-color: #fff;
+    border-radius: 14px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+}
+
+
